@@ -103,7 +103,7 @@ replicaCount: 6
 ## ref: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#strategy
 ##
 updateStrategy:
-  type: RollingUpdate
+  type: canary
   rollingUpdate: {}
 ## @param podLabels Additional labels for NGINX pods
 ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
